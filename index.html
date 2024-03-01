@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>first CV</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <img src="https://placehold.co/600x400/png" alt="my photo" class="avatar">
+        <h1 class="header__title">Dmitry Dorozhkin | CV</h1>
+        <h2 class="header__subtitle">Frontend Developer</h2>
+    </header>
+
+    <main class="main">
+        <section class="skills">
+            <h3>My skills</h3>
+
+            <details>
+                <summary>Skill list</summary>
+                <ol>
+                    <li>1. HTML</li>
+                    <li>2. CSS</li>
+                    <li>3. javaScript</li>
+                    <li>4. React</li>
+                    <li>5. Redux</li>
+                </ol>
+            </details>
+        </section>
+
+        <article class="article">
+            <h4>Short article about me</h4>
+            <p>Далеко-далеко за словесными горами в стране гласных, и согласных живут рыбные тексты. Приставка встретил
+            от всех буквенных последний не. Приставка заманивший заголовок взобравшись океана меня путь, на берегу
+            но вопроса повстречался ipsum своего снова страна пор если запятой возвращайся власти семантика однажды
+            она вершину! Назад, большой! Диких курсивных одна рукописи вопрос. Над, взгляд всемогущая.</p>
+        </article>
+
+        <section class=gallery>
+            <h3>My achievements</h3>
+                <img src="https://placehold.co/250x250/png" alt="мои достижения">
+                <img src="https://placehold.co/250x250/png" alt="мои достижения">
+                <img src="https://placehold.co/250x250/png" alt="мои достижения">
+        </section>
+
+        <hr class="separator">
+
+        <section class="video">
+            <h3>Мое первое видео</h3>
+            <iframe src="https://www.youtube.com/embed/bxl_qi72tMU" title="HTML для начинающих за 33 минуты"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        </section>
+
+        <section class="hobbies">
+            <h4>My hobbies:</h4>
+
+            <details>
+                <summary>Hobbies</summary>
+
+                <ul>
+                    <li>Cards tricks</li>
+                    <li>Playing guitar</li>
+                    <li>Audio books</li>
+                </ul>
+            </details>
+        </section>
+
+        <hr class="separator">
+
+        <section class="ed">
+            <h3>Мой путь образования</h3>
+            <table class="ed__table">
+                <thead>
+                    <tr>
+                        <th>School / University</th>
+                        <th>Profession</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>IT school 1</td>
+                        <td>React Dev</td>
+                        <td>2019</td>
+                    </tr>
+                    <tr>
+                        <td>IT school 2</td>
+                        <td>Vue jS</td>
+                        <td>2022</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="quote">
+            <h3>Любимая цитата</h3>
+            <blockquote>
+                Действие - это единственный путь к успеху!
+            </blockquote>
+        </section>
+
+        <section class="interaction">
+                <h3>Заполни форму</h3>
+                <form action="http://ya.ru" method="get" target="_blank" class="form">
+
+                <fieldset>
+                    <legend>Required fields:</legend>
+
+                    <label for="firstName-ID">First Name:</label>
+                    <input type="text" name="firstName" id="firstName-ID" class="form__control" placeholder="Введите имя" required>
+
+                    <label for="lastName-ID">Last Name:</label>
+                    <input type="text" name="lasttName" id="lastName-ID" class="form__control" placeholder="Введите фамилию" required>
+    
+                    <label for="email-id">Email:</label>
+                    <input type="email" name="email" id="email-id" class="form__control" placeholder="Введите email" required>
+                </fieldset>
+
+                <br>
+                <textarea class="form__control control--text" name="questions" cols="30" rows="6" placeholder="задать вопрос"></textarea>
+
+                <button type="submit" class="form__submit"> Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <hr class="separator">
+
+    <footer>
+        <address>
+            <a href="mailto:it@mail.ru" class="contacts__link">it@mail.ru</a>
+            <br>
+            <a href="tel:+375336763175" class="contacts__link">+375(33)676-31-75</a>
+            <br>
+            <a href="https://vk.com/id47778761" class="contacts__link" target="_blank">ВКонтакте</a>
+        </address>
+    </footer>
+
+</body>
+
+</html>
