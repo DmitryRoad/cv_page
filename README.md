@@ -8,6 +8,6 @@
     2.Two
     3.Three
 ```
-[CV page test](https://github.com/DmitryRoad/cv_page)
+[CV page test](https://dmitryroad.github.io/cv_page/)
 
 ![image](img/avatar.png)
